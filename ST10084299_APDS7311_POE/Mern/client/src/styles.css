@@ -1,0 +1,55 @@
+div {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title */
+h3 {
+  text-align: center;
+  color: #7289da; /* Discord blue */
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Input field styling */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #7289da; /* Discord blue */
+  border-radius: 5px;
+}
+
+/* File input styling */
+.form-control-file {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #7289da; /* Discord blue */
+  border-radius: 5px;
+}
+
+/* Error message styling */
+.text-danger {
+  color: red;
+}
+
+/* Submit button styling */
+.btn-primary {
+  background-color: #7289da; /* Discord blue */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #5f73a1; /* Darker shade of Discord blue */
+}
+
